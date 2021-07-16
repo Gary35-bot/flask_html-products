@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Here is the shopping list items</h1>
+<table border="5">
+    <tr><th>product</th><th>list</th></tr>
+{% for x, y in result.items(): %}
+<tr>
+    <td>{{x}}</td><td>{{y}}</td> </tr>
+{%endfor%}
+</table>
+</body>
+</html>
